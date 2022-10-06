@@ -221,7 +221,7 @@ html {
   margin: 40px auto;
 }
 .card-1 {
-  height: 34rem;
+  height: 40rem;
   margin: auto 0;
   border: 1px solid #000;
   cursor: grab;
@@ -229,21 +229,29 @@ html {
 
 .card-1 img {
   width: 14rem;
-  height: 10rem;
-  background-color: #666;
+  height: 12rem;
   margin: 1rem;
   transition: 0.5s ease-in-out;
 }
 .card-1 img:hover {
   transform: scale(1.1);
 }
+.card01 img {
+  margin-top: 3rem;
+  max-height: 10rem;
+}
+
+.card-content {
+  margin-top: 2rem;
+}
 .card-1 h4 {
   font-family: "Fira code", monospace;
   font-weight: lighter;
   font-size: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 .card-1 p {
+  min-height: 8rem;
   max-width: 90%;
   color: #000;
   font-family: "Fira code", monospace;
